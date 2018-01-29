@@ -17,7 +17,7 @@ class announce
     private $desc;
     private $price;
     private $town;
-    private $adress;
+    private $address;
     private $id_style;
     private $id_user;
     private $locker;
@@ -87,9 +87,9 @@ class announce
         $this->adress = $adress;
     }
 
-    function getAdress()
+    function getAddress()
     {
-        return $this->adress;
+        return $this->address;
     }
 
     function setId_style($id_style)
